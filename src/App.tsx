@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <div >
-        {products?.map(product => <div style={{marginBottom:'10px'}}>
+        {products?.map((product:any) => <div style={{marginBottom:'10px'}}>
           {product?.title}
         </div>)}
       </div>
