@@ -19,7 +19,11 @@ function App() {
 
   return (
     <>
-      <div>nika</div>
+      <div >
+        {products?.map(product => <div style={{marginBottom:'10px'}}>
+          {product?.title}
+        </div>)}
+      </div>
     </>
   )
 }
